@@ -1,4 +1,4 @@
-# Data-Driven-And-Keyword-Framework
+
 
 name=PropertiesConfig
 property.filename = logs
