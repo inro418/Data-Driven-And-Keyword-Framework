@@ -1,27 +1,6 @@
 # Data-Driven-And-Keyword-Framework
 
 Data Driven and Keyword Framework
-
-DataDrivenAndKeWordScenarioFramework
-
-Step:
-1... Create Maven Project
-2... Delete default packages 
-3... Create utils package 
-     a) create ExcelDataProvider class
-     b) create ExcUtils class 
-     c) create ExcelUtilsTest class 
-     d) create Screenshots class 
-
-4... Click on Maven Project and create below folders
-     a) create excel
-     b) create Logs
-     c) create Screenshots
-
-5... Import dependencies to POM.xml and save it.
-
-6... Click on src/main/java and navigate to file then, create Log4J2.propertiesfile - insert
-
 name=PropertiesConfig
 property.filename = logs
 appenders = console, file
@@ -47,3 +26,4 @@ logger.file.appenderRef.file.ref = LOGFILE
 rootLogger.level = trace
 rootLogger.appenderRefs = stdout
 rootLogger.appenderRef.stdout.ref = STDOUT
+
