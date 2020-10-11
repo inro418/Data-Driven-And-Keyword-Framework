@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="91957" started-at="2020-10-11T02:14:23Z" finished-at="2020-10-11T02:15:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="91957" started-at="2020-10-11T02:14:23Z" finished-at="2020-10-11T02:15:55Z">
+      <class name="utils.ExcelDataProvider">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:utils.ExcelDataProvider@710f4dc7]" name="setUpTest" is-config="true" duration-ms="8852" started-at="2020-10-11T03:14:23Z" finished-at="2020-10-11T03:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@710f4dc7]" name="test1" duration-ms="50622" started-at="2020-10-11T03:15:04Z" data-provider="test1data" finished-at="2020-10-11T03:15:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Akin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inro4ebony@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- utils.ExcelDataProvider -->
+      <class name="utils.Screenshots">
+        <test-method status="PASS" signature="CaptureScreenshot()[pri:0, instance:utils.Screenshots@1ff4931d]" name="CaptureScreenshot" duration-ms="23581" started-at="2020-10-11T03:14:32Z" finished-at="2020-10-11T03:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureScreenshot -->
+      </class> <!-- utils.Screenshots -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
