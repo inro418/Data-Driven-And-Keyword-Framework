@@ -1,6 +1,5 @@
 # Data-Driven-And-Keyword-Framework
 
-Data Driven and Keyword Framework
 name=PropertiesConfig
 property.filename = logs
 appenders = console, file
